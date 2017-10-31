@@ -28,7 +28,7 @@ class CreateGoalVC: UIViewController {
 	
 	
 	@IBAction func backTapped(_ sender: UIButton) {
-		dismiss(animated: true, completion: nil)
+		dismissDetail()
 	}
 	
 }
