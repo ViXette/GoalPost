@@ -18,6 +18,7 @@
 		48BBC6EF1FA5A3F7005963C3 /* GoalPost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48BBC6ED1FA5A3F7005963C3 /* GoalPost.xcdatamodeld */; };
 		48BBC6F11FA5A3F7005963C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BBC6F01FA5A3F7005963C3 /* Assets.xcassets */; };
 		48BBC6F41FA5A3F7005963C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BBC6F21FA5A3F7005963C3 /* LaunchScreen.storyboard */; };
+		48EF55E91FB3F59F00DB5BD5 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF55E81FB3F59F00DB5BD5 /* FinishGoalVC.swift */; };
 		48F928171FA5CE860037FCE2 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F928161FA5CE860037FCE2 /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		48BBC6F01FA5A3F7005963C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48BBC6F31FA5A3F7005963C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BBC6F51FA5A3F7005963C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EF55E81FB3F59F00DB5BD5 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		48F928161FA5CE860037FCE2 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 			children = (
 				48BBC6E81FA5A3F7005963C3 /* GoalsVC.swift */,
 				48A230931FA73D3700C9E132 /* CreateGoalVC.swift */,
+				48EF55E81FB3F59F00DB5BD5 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				481ED67C1FAB1BDC00E2B795 /* UIButtonExtension.swift in Sources */,
 				48986FF51FA86E1300B5C2B0 /* UIViewControllerExtension.swift in Sources */,
 				48986FF71FA878B700B5C2B0 /* UIViewExtension.swift in Sources */,
+				48EF55E91FB3F59F00DB5BD5 /* FinishGoalVC.swift in Sources */,
 				48BBC6EF1FA5A3F7005963C3 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
