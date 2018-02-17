@@ -44,7 +44,7 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
 			
 			finishGoalVC.initData(goalDescription: goal_textView.text, goalType: goalType)
 
-			presentDetail(finishGoalVC)
+			presentingViewController?.presentSecondaryDetail(finishGoalVC)
 		}
 	}
 	
